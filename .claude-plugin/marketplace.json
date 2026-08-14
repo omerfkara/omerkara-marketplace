@@ -1,9 +1,12 @@
 {
-  "name": "Ömer Kara Marketplace",
-  "description": "SDLC tools and task management for Claude Code",
-  "maintainer": "Ömer Faruk Kara",
-  "homepage": "https://github.com/omerfkara",
+  "name": "omer-kara-sdlc",
+  "displayName": "Ömer Kara SDLC Tools",
+  "description": "Task management and project initialization tools for Claude Code",
+  "owner": "omerfkara",
+  "homepage": "https://github.com/omerfkara/omerkara-marketplace",
   "repository": "https://github.com/omerfkara/omerkara-marketplace",
+  "version": "1.0.0",
+  "license": "MIT",
   "plugins": [
     {
       "id": "omerkara-sdlc",
@@ -25,18 +28,18 @@
     },
     {
       "id": "task-mcp",
-      "name": "Task Management MCP Server",
+      "name": "Task Management MCP",
       "version": "1.0.0",
-      "description": "MCP server for n8n-powered task and document management",
+      "description": "MCP server for task and document management via n8n API",
       "author": "Ömer Faruk Kara",
       "type": "mcp-server",
       "repository": "https://github.com/omerfkara/task-mcp",
       "homepage": "https://github.com/omerfkara/task-mcp",
       "license": "MIT",
-      "keywords": ["mcp", "task-management", "n8n", "claude-api"],
+      "keywords": ["mcp", "task-management", "n8n"],
       "features": [
         "List, create, update, delete tasks",
-        "Manage project documents (PROMPT, SCOPE, etc.)",
+        "Manage project documents",
         "Works with Claude Code and Claude API",
         "Type-safe with Pydantic validation"
       ]
