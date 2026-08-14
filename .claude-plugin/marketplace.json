@@ -2,7 +2,10 @@
   "name": "omer-kara-sdlc",
   "displayName": "Ömer Kara SDLC Tools",
   "description": "Task management and project initialization tools for Claude Code",
-  "owner": "omerfkara",
+  "owner": {
+    "name": "Ömer Faruk Kara",
+    "url": "https://github.com/omerfkara"
+  },
   "homepage": "https://github.com/omerfkara/omerkara-marketplace",
   "repository": "https://github.com/omerfkara/omerkara-marketplace",
   "version": "1.0.0",
@@ -17,14 +20,7 @@
       "type": "skill",
       "repository": "https://github.com/omerfkara/omerkara-sdlc",
       "homepage": "https://github.com/omerfkara/omerkara-sdlc",
-      "license": "MIT",
-      "keywords": ["task-management", "project-initialization", "claude-code", "sdlc"],
-      "features": [
-        "Load project tasks from n8n API",
-        "Fetch PROMPT.md, SCOPE.md documentation",
-        "Auto-generate missing documentation",
-        "Interactive project setup"
-      ]
+      "license": "MIT"
     },
     {
       "id": "task-mcp",
@@ -35,14 +31,7 @@
       "type": "mcp-server",
       "repository": "https://github.com/omerfkara/task-mcp",
       "homepage": "https://github.com/omerfkara/task-mcp",
-      "license": "MIT",
-      "keywords": ["mcp", "task-management", "n8n"],
-      "features": [
-        "List, create, update, delete tasks",
-        "Manage project documents",
-        "Works with Claude Code and Claude API",
-        "Type-safe with Pydantic validation"
-      ]
+      "license": "MIT"
     }
   ]
 }
