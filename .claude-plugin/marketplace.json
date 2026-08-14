@@ -18,16 +18,9 @@
       "description": "Project context initialization - Fetch tasks, load PROMPT/SCOPE, auto-generate documentation",
       "author": "Ömer Faruk Kara",
       "type": "skill",
-      "repository": "omerfkara/omerkara-sdlc",
+      "repository": "https://github.com/omerfkara/omerkara-sdlc",
       "homepage": "https://github.com/omerfkara/omerkara-sdlc",
-      "license": "MIT",
-      "keywords": ["task-management", "project-initialization", "claude-code", "sdlc"],
-      "features": [
-        "Load project tasks from n8n API",
-        "Fetch PROMPT.md, SCOPE.md documentation",
-        "Auto-generate missing documentation",
-        "Interactive project setup"
-      ]
+      "license": "MIT"
     },
     {
       "id": "task-mcp",
@@ -36,16 +29,9 @@
       "description": "MCP server for task and document management via n8n API",
       "author": "Ömer Faruk Kara",
       "type": "mcp-server",
-      "repository": "omerfkara/task-mcp",
+      "repository": "https://github.com/omerfkara/task-mcp",
       "homepage": "https://github.com/omerfkara/task-mcp",
-      "license": "MIT",
-      "keywords": ["mcp", "task-management", "n8n"],
-      "features": [
-        "List, create, update, delete tasks",
-        "Manage project documents",
-        "Works with Claude Code and Claude API",
-        "Type-safe with Pydantic validation"
-      ]
+      "license": "MIT"
     }
   ]
 }
