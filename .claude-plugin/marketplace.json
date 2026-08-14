@@ -20,7 +20,14 @@
       "type": "skill",
       "repository": "https://github.com/omerfkara/omerkara-sdlc",
       "homepage": "https://github.com/omerfkara/omerkara-sdlc",
-      "license": "MIT"
+      "license": "MIT",
+      "keywords": ["task-management", "project-initialization", "claude-code", "sdlc"],
+      "features": [
+        "Load project tasks from n8n API",
+        "Fetch PROMPT.md, SCOPE.md documentation",
+        "Auto-generate missing documentation",
+        "Interactive project setup"
+      ]
     },
     {
       "id": "task-mcp",
@@ -31,7 +38,14 @@
       "type": "mcp-server",
       "repository": "https://github.com/omerfkara/task-mcp",
       "homepage": "https://github.com/omerfkara/task-mcp",
-      "license": "MIT"
+      "license": "MIT",
+      "keywords": ["mcp", "task-management", "n8n"],
+      "features": [
+        "List, create, update, delete tasks",
+        "Manage project documents",
+        "Works with Claude Code and Claude API",
+        "Type-safe with Pydantic validation"
+      ]
     }
   ]
 }
