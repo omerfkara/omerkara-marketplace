@@ -1,0 +1,6 @@
+[submodule "plugins/omerkara-sdlc"]
+	path = plugins/omerkara-sdlc
+	url = https://github.com/omerfkara/omerkara-sdlc.git
+[submodule "plugins/task-mcp"]
+	path = plugins/task-mcp
+	url = https://github.com/omerfkara/task-mcp.git
